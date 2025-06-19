@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <script src="progress.js"></script>
+  <link rel="stylesheet" href="style.css">
+  <title>Code Progress</title>
+</head>
+<body>
+  <h1>Code Progress</h1>
+
+  <div class="container">
+    <div class="section">
+      <div class="hover-box">
+        <h3>Front End</h3>
+        <ul>
+          <li class="completed">HTML</li>
+          <li class="completed">CSS</li>
+          <li class="completed">JavaScript</li>
+        </ul>
+        <div class="progress-container" data-completed="3" data-total="3">
+          <div class="progress-bar">
+            <div class="fill"></div>
+          </div>
+          <p class="progress-text"></p>
+        </div>
+      </div>
+    </div>
+
+    <div class="section">
+      <div class="hover-box">
+        <h3>Web Server</h3>
+        <ul>
+          <li class="inprogress">Python</li>
+          <li class="incomplete">C++</li>
+          <li class="incomplete">C</li>
+          <li class="completed">Java</li>
+        </ul>
+        <div class="progress-container" data-completed="1.5" data-total="4">
+          <div class="progress-bar">
+            <div class="fill"></div>
+          </div>
+          <p class="progress-text"></p>
+        </div>
+      </div>
+    </div>
+
+    <div class="section">
+      <div class="hover-box">
+        <h3>Database</h3>
+        <ul>
+          <li class="incomplete">MySQL</li>
+        </ul>
+        <div class="progress-container" data-completed="0" data-total="1">
+          <div class="progress-bar">
+            <div class="fill"></div>
+          </div>
+          <p class="progress-text"></p>
+        </div>
+      </div>
+    </div>
+
+    <div class="section">
+      <div class="hover-box">
+        <h3>Other</h3>
+        <ul>
+          <li class="completed">LaTeX</li>
+          <li class="incomplete">Assembly</li>
+        </ul>
+        <div class="progress-container" data-completed="1" data-total="2">
+          <div class="progress-bar">
+            <div class="fill"></div>
+          </div>
+          <p class="progress-text"></p>
+        </div>
+      </div>
+    </div>
+
+    <div class="section">
+      <div class="hover-box">
+        <h3>Date and Time</h3>
+        <p id="clock">🕒 Loading time...</p>
+        <p id="date">📅 Loading date...</p>
+      </div>
+    </div>
+
+    <div class="section">
+      <div class="hover-box">
+        <h3>Daily Quote &#x1F4AA</h3>
+        <p class="quote" id="motivational-quote"></p>
+        <button id="new-quote-btn">🔁 New Quote</button>
+      </div>
+    </div>
+    <button id="theme-toggle">🌞 Toggle Light/Dark</button>
+
+  </div>
+</body>
+</html>
