@@ -6,16 +6,24 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <nav class="navbar">
-    <a href="index.html" class="active">Home</a>
-    <a href="about.html">About</a>
-    <a href="projects.html">Projects</a>
-    <a href="code-progress.html">Code Progress</a>
-    <a href="contact.html">Contact</a>
+  <nav class="navbar" style="position: sticky; top: 0; z-index: 1000;">
+    <div class="navbar-left">
+      <span class="logo" style="font-weight: bold; font-size: 1.25rem;">Wesley Hon</span>
+    </div>
+    <div class="navbar-center">
+      <a href="index.html" class="active">Home</a>
+      <a href="about.html">About</a>
+      <a href="projects.html">Projects</a>
+      <a href="code-progress.html">Code Progress</a>
+      <a href="contact.html">Contact</a>
+    </div>
+    <div class="navbar-right">
+      <button id="theme-toggle">🌙</button>
+    </div>
   </nav>
 
   <h1>Welcome to Wesley Hon's Website</h1>
   <p>Click below to view your Code Progress page:</p>
-  <button onclick="window.location.href='codeProgress.html'">Go to Code Progress</button>
+  <button onclick="window.location.href='code-progress.html'">Go to Code Progress</button>
 </body>
 </html>

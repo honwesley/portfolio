@@ -228,3 +228,15 @@ body.light-mode #theme-toggle {
   border-bottom: 2px solid #38bdf8;
   padding-bottom: 2px;
 }
+
+.navbar-left, .navbar-center, .navbar-right {
+  display: flex;
+  align-items: center;
+}
+.navbar-center {
+  gap: 40px;
+  flex-wrap: wrap;
+}
+.navbar {
+  justify-content: space-between;
+}
