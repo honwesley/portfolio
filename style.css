@@ -196,3 +196,35 @@ body.light-mode #theme-toggle {
   background-color: #0f172a;
   color: #f8fafc;
 }
+
+/* Navbar styles */
+.navbar {
+  background-color: #1e293b;          /* Dark navy background */
+  padding: 15px 30px;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  border-radius: 10px;
+  margin-bottom: 40px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  flex-wrap: wrap;
+}
+
+.navbar a {
+  color: #f1f5f9;                     /* Light text color */
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1rem;
+  transition: color 0.2s ease, transform 0.2s ease;
+}
+
+.navbar a:hover {
+  color: #38bdf8;                     /* Light blue hover */
+  transform: scale(1.05);
+}
+
+/* Optional: Highlight current page link */
+.navbar a.active {
+  border-bottom: 2px solid #38bdf8;
+  padding-bottom: 2px;
+}
