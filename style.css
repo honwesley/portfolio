@@ -179,9 +179,6 @@ body.light-mode #new-quote-btn:hover {
   background-color: #0284c7;
 }
 #theme-toggle {
-  position: fixed;
-  top: 20px;
-  right: 20px;
   background-color: #38bdf8;
   color: #0f172a;
   border: none;
