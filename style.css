@@ -213,6 +213,23 @@ body.light-mode form#contact-form label {
   color: #1e293b;
 }
 
+body.light-mode .site-footer {
+  background-color: #e2e8f0;
+  color: #475569;
+  border-top: 1px solid #cbd5e1;
+}
+
+body.light-mode .footer-section h4 {
+  color: #1e293b;
+}
+
+body.light-mode .footer-section a {
+  color: #1e293b;
+}
+
+body.light-mode .footer-section a:hover {
+  color: #0ea5e9;
+}
 
 /* Navbar styles */
 .navbar {
@@ -263,6 +280,10 @@ body.light-mode form#contact-form label {
 }
 
 /* Contact Page Layout */
+#contactTitle{
+  text-align:left;
+}
+
 .contact-layout {
   display: flex;
   gap: 40px;
@@ -359,4 +380,46 @@ form#contact-form button {
 
 form#contact-form button:hover {
   background-color: #0ea5e9;
+}
+
+.site-footer {
+  background-color: #1e293b;
+  color: #94a3b8;
+  border-top: 1px solid #334155;
+  padding-left:50px;
+  border-radius:20px;
+  margin-top:30px;
+}
+
+.footer-content {
+  display: flex;
+  gap: 40%;
+  flex-wrap: wrap;
+  margin: auto;
+  text-align:left;
+}
+
+.footer-section h4 {
+  color: #f1f5f9;
+  font-size: 1rem;
+  margin-bottom: 10px;
+}
+
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-section li {
+  margin-bottom: 6px;
+}
+
+.footer-section a {
+  text-decoration: none;
+  color: #cbd5e1;
+  transition: color 0.2s ease;
+}
+
+.footer-section a:hover {
+  color: #38bdf8;
 }
